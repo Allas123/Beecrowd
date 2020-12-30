@@ -1,33 +1,30 @@
 package iniciante.uri1006;
 
-import java.util.Scanner; // programa utiliza a classe Scanner
+import java.util.Scanner;
 
 public class Main {
 
-    // método main inicia a execução do aplicativo Java
     public static void main(String[] args) {
 
-        // cria um Scanner para obter entrada a partir da janela de comando
         Scanner input = new Scanner(System.in);
 
-        double a; // primeira nota a fazer a média
-        double b; // segundo nota a fazer a média
-        double c; // terceira nota a fazer a média
-        double media; // cálculo da média
+        double a;
+        double b;
+        double c;
+        double media;
 
-        a = input.nextDouble(); // lê primeira nota fornecindo pelo usuário e armazenando na variável a
-        b = input.nextDouble(); // lê segunda nota fornecindo pelo usuário e armazenando na variável b
-        c = input.nextDouble(); // lê terceira nota fornecindo pelo usuário e armazenando na variável c
+        a = input.nextDouble();
+        b = input.nextDouble();
+        c = input.nextDouble();
 
-        a *= 2; // atribuído peso da primeira nota
-        b *= 3; // atribuído peso da segunda nota
-        c *= 5; // atribuído peso da terceira nota
+        a *= 2;
+        b *= 3;
+        c *= 5;
 
-        media = ((a + b + c) / 10); // fazer cálculo da média, depois  armazenar na variável media
+        media = ((a + b + c) / 10);
 
-        System.out.printf("MEDIA = %.1f%n" , media); // exiber o valor da variável media
+        System.out.printf("MEDIA = %.1f%n" , media);
 
-        // fechar input
         input.close();
     }
 }
