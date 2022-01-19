@@ -1,4 +1,3 @@
-# URI Online Judge Problems & Contests
+<h1 align="center">BEECROWDER</h1>
 
- Bem-vindo ao meu repositório de soluções de exercícios do URI.
- --
+<p align="center"> Bem-vindo ao meu repositório de soluções de exercícios do BEECROWDER.</p>
